@@ -17,7 +17,11 @@ export default function About () {
             <Container >
                 <Card
                     border="info"
-                    style={{ background: 'gray', justifyContent: 'center'}}
+                    style={{
+                        background: 'rgb(178, 190, 181,0.5)',
+                        justifyContent: 'center',
+                        borderRadius: '10px'
+                    }}
                 >
                     <Card.Header ClassName="blockquote mb-0 card-body">About Us</Card.Header>
                     <Card.Img style={{ width: '50%', margin: 'auto'}} src="hotsprings.jpg" alt="Hot Springs"/>
@@ -25,7 +29,7 @@ export default function About () {
                     
                         <Card.Title>Special title treatment</Card.Title>
                         <Card.Text>
-                            When returning from a spritual journey through the Earth, Monty McMansions decided to dedicate some of his fortune to offering spritiual wellness for others back in his hometown.
+                            When returning from a spiritual journey through the Earth, Monty McMansions decided to dedicate some of his fortune to offering spiritual wellness for others back in his hometown.
                         </Card.Text>
                         <Card.Text>
                             As the heir of the industrious McMansions fortune, Monty was never satisfied with the material wealth that provided him everything he desired. 

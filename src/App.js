@@ -37,6 +37,13 @@ function App() {
               fill
               defaultActiveKey="/"
               variant="tabs"
+              style={{
+                background: 'rgb(178, 190, 181,0.5)',
+                color: 'gray',
+                textDecoration: 'none',
+                borderRadius: '10px'
+
+              }}
             >
               <Nav.Item>
                 <Nav.Link href="/">
